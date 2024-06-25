@@ -1839,6 +1839,99 @@ h6 {
 
 
 /*--------------------------------------------------------------
+# Hero KIEP SKIES
+--------------------------------------------------------------*/
+
+#herokiepskies
+ {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/kiep\ skies1.jpg") top center;
+  background-size: cover;
+  position: relative;
+  padding: 0;
+}
+
+#herokiepskies:before {
+  content: "";
+  background: rgba(13, 20, 26, 0.5);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#herokiepskies .herokiepskies-container {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#herokiepskies h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+#herokiepskies h2 {
+  color: #eee;
+  margin-bottom: 50px;
+  font-size: 24px;
+}
+
+#herokiepskies .btn-get-started {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  display: inline-block;
+  padding: 10px 35px 10px 35px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #fff;
+  background: #ff4a17;
+  border: 2px solid #ff4a17;
+}
+
+#herokiepskies .btn-get-started:hover {
+  border-color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+
+@media (min-width: 1024px) {
+  #herokiepskies {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  #herokiepskies h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #herokiepskies h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+
+
+/*--------------------------------------------------------------
 # Hero Livestock
 --------------------------------------------------------------*/
 
@@ -1928,6 +2021,100 @@ h6 {
     margin-bottom: 30px;
   }
 }
+
+
+
+/*--------------------------------------------------------------
+# Hero WECANWORK
+--------------------------------------------------------------*/
+
+#herowecanwork
+ {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/projects/wecanwork.jpg") top center;
+  background-size: cover;
+  position: relative;
+  padding: 0;
+}
+
+#herowecanwork:before {
+  content: "";
+  background: rgba(13, 20, 26, 0.5);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#herowecanwork .herowecanwork-container {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#herowecanwork h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+#herowecanwork h2 {
+  color: #eee;
+  margin-bottom: 50px;
+  font-size: 24px;
+}
+
+#herowecanwork .btn-get-started {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 14px;
+  display: inline-block;
+  padding: 10px 35px 10px 35px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #fff;
+  background: #ff4a17;
+  border: 2px solid #ff4a17;
+}
+
+#herowecanwork .btn-get-started:hover {
+  border-color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+
+@media (min-width: 1024px) {
+  #herowecanwork {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  #herowecanwork h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  #herowecanwork h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
 
 
 /*--------------------------------------------------------------
